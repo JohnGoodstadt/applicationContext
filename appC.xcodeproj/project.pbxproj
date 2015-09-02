@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323F68011B9751B3002CF689 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 323F68001B9751B2002CF689 /* README.md */; };
 		524E61301B94EC050038F21F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E612F1B94EC050038F21F /* main.m */; };
 		524E61331B94EC060038F21F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E61321B94EC060038F21F /* AppDelegate.m */; };
 		524E61361B94EC060038F21F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E61351B94EC060038F21F /* ViewController.m */; };
-		524E61391B94EC060038F21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E61371B94EC060038F21F /* Main.storyboard */; };
 		524E613B1B94EC060038F21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524E613A1B94EC060038F21F /* Assets.xcassets */; };
 		524E613E1B94EC060038F21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E613C1B94EC060038F21F /* LaunchScreen.storyboard */; };
 		524E61431B94EC060038F21F /* appC WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 524E61421B94EC060038F21F /* appC WatchKit App.app */; };
-		524E61491B94EC060038F21F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E61471B94EC060038F21F /* Interface.storyboard */; };
 		524E614B1B94EC060038F21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524E614A1B94EC060038F21F /* Assets.xcassets */; };
 		524E61521B94EC060038F21F /* appC WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 524E61511B94EC060038F21F /* appC WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		524E61581B94EC060038F21F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E61571B94EC060038F21F /* InterfaceController.m */; };
 		524E615B1B94EC060038F21F /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E615A1B94EC060038F21F /* ExtensionDelegate.m */; };
 		524E615D1B94EC060038F21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524E615C1B94EC060038F21F /* Assets.xcassets */; };
+		524E616D1B94EE850038F21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E616C1B94EE850038F21F /* Main.storyboard */; };
+		524E616F1B94EF7A0038F21F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E616E1B94EF7A0038F21F /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,18 +66,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		323F68001B9751B2002CF689 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		524E612B1B94EC050038F21F /* appC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524E612F1B94EC050038F21F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524E61311B94EC050038F21F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		524E61321B94EC060038F21F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		524E61341B94EC060038F21F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		524E61351B94EC060038F21F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		524E61381B94EC060038F21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524E613A1B94EC060038F21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524E613D1B94EC060038F21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524E613F1B94EC060038F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524E61421B94EC060038F21F /* appC WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appC WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		524E61481B94EC060038F21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		524E614A1B94EC060038F21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524E614C1B94EC060038F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524E61511B94EC060038F21F /* appC WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "appC WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +86,8 @@
 		524E615A1B94EC060038F21F /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		524E615C1B94EC060038F21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524E615E1B94EC060038F21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524E616C1B94EE850038F21F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		524E616E1B94EF7A0038F21F /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,11 +135,12 @@
 				524E61321B94EC060038F21F /* AppDelegate.m */,
 				524E61341B94EC060038F21F /* ViewController.h */,
 				524E61351B94EC060038F21F /* ViewController.m */,
-				524E61371B94EC060038F21F /* Main.storyboard */,
+				524E616C1B94EE850038F21F /* Main.storyboard */,
 				524E613A1B94EC060038F21F /* Assets.xcassets */,
 				524E613C1B94EC060038F21F /* LaunchScreen.storyboard */,
 				524E613F1B94EC060038F21F /* Info.plist */,
 				524E612E1B94EC050038F21F /* Supporting Files */,
+				323F68001B9751B2002CF689 /* README.md */,
 			);
 			path = appC;
 			sourceTree = "<group>";
@@ -153,7 +156,7 @@
 		524E61461B94EC060038F21F /* appC WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				524E61471B94EC060038F21F /* Interface.storyboard */,
+				524E616E1B94EF7A0038F21F /* Interface.storyboard */,
 				524E614A1B94EC060038F21F /* Assets.xcassets */,
 				524E614C1B94EC060038F21F /* Info.plist */,
 			);
@@ -274,9 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524E616D1B94EE850038F21F /* Main.storyboard in Resources */,
 				524E613E1B94EC060038F21F /* LaunchScreen.storyboard in Resources */,
 				524E613B1B94EC060038F21F /* Assets.xcassets in Resources */,
-				524E61391B94EC060038F21F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524E616F1B94EF7A0038F21F /* Interface.storyboard in Resources */,
 				524E614B1B94EC060038F21F /* Assets.xcassets in Resources */,
-				524E61491B94EC060038F21F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +309,7 @@
 			files = (
 				524E61361B94EC060038F21F /* ViewController.m in Sources */,
 				524E61331B94EC060038F21F /* AppDelegate.m in Sources */,
+				323F68011B9751B3002CF689 /* README.md in Sources */,
 				524E61301B94EC050038F21F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,28 +339,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		524E61371B94EC060038F21F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524E61381B94EC060038F21F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		524E613C1B94EC060038F21F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				524E613D1B94EC060038F21F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		524E61471B94EC060038F21F /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524E61481B94EC060038F21F /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -449,7 +437,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "appC WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -463,7 +451,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "appC WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -478,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = appC_WatchKit_Extension;
 				INFOPLIST_FILE = "appC WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -493,7 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = appC_WatchKit_Extension;
 				INFOPLIST_FILE = "appC WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -508,8 +496,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -519,8 +508,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.me.goodstadt.appC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.appC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -543,6 +533,7 @@
 				524E61631B94EC060038F21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524E61651B94EC060038F21F /* Build configuration list for PBXNativeTarget "appC WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +542,7 @@
 				524E61671B94EC060038F21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524E61691B94EC060038F21F /* Build configuration list for PBXNativeTarget "appC" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +551,7 @@
 				524E616B1B94EC060038F21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
